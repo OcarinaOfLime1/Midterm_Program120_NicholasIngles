@@ -64,7 +64,7 @@ while (calculatoractive)
             }
             else if (operation == "e")
             {
-                Console.WriteLine("\nExited.");
+                
             }
             else
             {
@@ -111,7 +111,7 @@ while (calculatoractive)
             }
             else if (finselect == "e")
             {
-                Console.WriteLine("\nExited.");
+                
             }
             else
             {
@@ -163,11 +163,11 @@ while (calculatoractive)
                 Console.Write("Enter radius: ");
                 double coneradius = double.Parse(Console.ReadLine());
                 double cone = (double.Pi * (coneradius * coneradius) * coneheight) / 3;
-                Console.WriteLine("Area: " + cone);
+                Console.WriteLine("Volume: " + cone);
             }
             else if (geoselect == "e")
             {
-                Console.WriteLine("\nExited.");
+                
             }
             else
             {
@@ -222,7 +222,7 @@ while (calculatoractive)
         }
         else if (select == "e")
         {
-            Console.WriteLine("\nExited");
+            Console.WriteLine("\nExited.");
             calculatoractive = false;
         }
         else
